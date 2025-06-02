@@ -1,0 +1,73 @@
+body {
+	background-color: black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 0;
+	padding: 20px;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.postcard-header h1 {
+	font-size: 20px;
+	margin: 0;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+	flex: 1;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.body-left,
+.body-right {
+	width: 50%;
+	padding: 5px;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 8px;
+	border: none;
+	border-bottom: 1px solid grey;
+	padding: 4px;
+	font-family: inherit;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding-top: 10px;
+}
+
+button {
+	background-color: #cccccc;
+	padding: 8px 16px;
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+}
